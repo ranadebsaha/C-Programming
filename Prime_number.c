@@ -1,37 +1,30 @@
 #include <stdio.h>
+int main() {
 
-//
+int n,b=1,i,j,a;
 
-//int main() {
+printf("Enter the last number of range: ");
 
-//int n,b=1,i,j,a;
+scanf("%d",&n);
 
-//printf("Enter the last number of range: ");
+printf("The Prime numbers are: ");
 
-//scanf("%d",&n);
+for(i=1;i<=n;i++)
+{
 
-//printf("The Prime numbers are: ");
+   a=0;
 
-//for(i=1;i<=n;i++)
+   for(j=1;j<=i;j++)
 
-//{
+    {
+        if(i%j==0)
 
-//    a=0;
+          a++;
+    } 
+if(a==2)
 
-//    for(j=1;j<=i;j++)
+printf("%d\t",i);
 
-//    {
+}
 
-//        if(i%j==0)
-
-//          a++;
-
-//    } 
-
-//if(a==2)
-
-//printf("%d\t",i);
-
-//}
-
-//}
+}
