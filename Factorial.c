@@ -1,25 +1,20 @@
 #include <stdio.h>
+int main() {
 
-//
+int a,b=1,i;
 
-//int main() {
+printf("Enter a number: ");
 
-//int a,b=1,i;
+scanf("%d",&a);
 
-//printf("Enter a number: ");
+for(i=1;i<=a;i++)
 
-//scanf("%d",&a);
+{
 
-//for(i=1;i<=a;i++)
+    b=b*i;
 
-//{
+}
 
-//    b=b*i;
+printf("Factorial number of '%d' this number is: %d",a,b);
 
-//}
-
-//printf("Factorial number of '%d' this number is: %d",a,b);
-
-//}
-
-//
+}
