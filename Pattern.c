@@ -70,35 +70,32 @@
 
 //iv)
 
-//#include <stdio.h>
+#include <stdio.h>
+int main() {
 
-//
+int i,l,j;
 
-//int main() {
+for(i=1;i<=4;i++)
 
-//int i,l,j;
+{
 
-//for(i=1;i<=4;i++)
+for(l=1;l<i;l++)
 
-//{
+{
 
-//for(l=1;l<i;l++)
+    printf(" ");
 
-//{
+}
 
-//    printf(" ");
+for(j=4;j>=i;j--)
 
-//}
+printf("*");
 
-//for(j=4;j>=i;j--)
+printf("\n");
 
-//printf("*");
+}
 
-//printf("\n");
-
-//}
-
-//}
+}
 
 //V)
 
