@@ -45,28 +45,24 @@
 //}
 
 //iii)
+#include <stdio.h>
+int main() {
 
-//#include <stdio.h>
+int i,j;
 
-//
+for(i=1;i<5;i++)
 
-//int main() {
+{
 
-//int i,j;
+    for(j=4;j>=i;j--)
 
-//for(i=1;i<5;i++)
+    printf("*");
 
-//{
+    printf("\n");
 
-//    for(j=4;j>=i;j--)
+}
 
-//    printf("*");
-
-//    printf("\n");
-
-//}
-
-//}
+}
 
 //iv)
 
