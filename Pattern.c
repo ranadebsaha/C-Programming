@@ -22,27 +22,27 @@
 
 //ii)
 
-//#include <stdio.h>
+#include <stdio.h>
 
-//
 
-//int main() {
 
-//int i,j;
+int main() {
 
-//for(i=5;i>=1;i--)
+int i,j;
 
-//{
+for(i=5;i>=1;i--)
 
-//    for(j=5;j>=i;j--)
+{
 
-//printf(" %d",j);
+    for(j=5;j>=i;j--)
 
-//printf("\n");
+printf(" %d",j);
 
-//}
+printf("\n");
 
-//}
+}
+
+}
 
 //iii)
 #include <stdio.h>
