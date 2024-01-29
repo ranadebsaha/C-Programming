@@ -1,24 +1,23 @@
 //i)
 
-//#include <stdio.h>
+#include <stdio.h>
 
-//
 
-//int main() {
+int main() {
 
-//int n,b=1,i,j,a=0,c;
+int n,b=1,i,j,a=0,c;
 
-//for(i=0;i<=5;i++)
+for(i=0;i<=5;i++)
 
-//{for(j=1;j<=i;j++)
+{for(j=1;j<=i;j++)
 
-//printf(" %d",j);
+printf(" %d",j);
 
-//printf("\n");
+printf("\n");
 
-//   }
+   }
 
-//}
+}
 
 //ii)
 
